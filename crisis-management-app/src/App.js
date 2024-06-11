@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import CrisisList from './crisisList';
-import CrisisDetails from './crisisDetails';
-import AddCrisisForm from './addCrisisForm';
-import UpdateCrisisForm from './updateCrisisForm';
+import CrisisList from './components/crisisList';
+import CrisisDetails from './components/crisisDetails';
+import AddCrisisForm from './components/addCrisisForm';
+import UpdateCrisisForm from './components/updateCrisisForm';
 
 const App = () => {
   return (
